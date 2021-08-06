@@ -14,6 +14,7 @@ body {
 
 .container{
 	max-width: 1200px;
+	width: 90%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -26,7 +27,7 @@ h2,
 h3 {
 	color: black;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 700px;
 }
 h1 {
 	font-size: 1.87em;
@@ -46,13 +47,14 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	height: 110px;
+	height: 6.87em;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 100%;
 }
 
 header h1 {
@@ -89,9 +91,11 @@ header nav ul li a{
 .bottom-section {
 	margin: 0 auto;
 	display: flex;
-	justify-content: center;
+	justify-content:center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 100%;
+	
 	
 }
 
@@ -122,10 +126,10 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	height: auto;
-	
 	border-top: 1px solid #eee;
+
 }
 
 .section-one h3 {
@@ -140,6 +144,7 @@ header nav ul li a{
 .section-two h3,
 .section-three h3 {
 	padding: 10px 30px;
+	
 }
 
 .menu {
@@ -164,7 +169,7 @@ header nav ul li a{
 
 /*The widths are in a percentage!*/
 footer {
-	height: 50px;
+	height: 3.12em;
 	border-top: 3px solid #eee;
 	margin: 0 auto;
 	
@@ -173,6 +178,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 100%;
 }
 footer span {
 	font-family: 'Galada', cursive;
